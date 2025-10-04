@@ -12,5 +12,6 @@ namespace SmithSwimmingSchool.Models
         }
 
         // Add DbSet<T> properties here as needed
+        public DbSet<Swimmer> Swimmers { get; set; }
     }
 }

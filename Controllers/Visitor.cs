@@ -4,9 +4,9 @@ namespace SmithSwimmingSchool.Controllers
 {
     public class Visitor : Controller
     {
-        public IActionResult Index()
+        public IActionResult AddVisitor()
         {
-            return View();
+            return View(); 
         }
     }
 }

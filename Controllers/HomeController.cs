@@ -8,5 +8,12 @@ namespace SmithSwimmingSchool.Controllers
         {
             return View();
         }
+
+        public IActionResult AddVisitor()
+        {
+            return View();
+        }
+
+        
     }
 }
